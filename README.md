@@ -1,6 +1,6 @@
 # 🌱 Legado Verde
 
-Projeto acadêmico desenvolvido como atividade avaliativa da disciplina de desenvolvimento web, utilizando exclusivamente recursos de HTML clássico e JavaScript, conforme os requisitos definidos em aula.
+Projeto acadêmico desenvolvido como atividade avaliativa da disciplina de desenvolvimento web, utilizando HTML clássico e JavaScript, conforme os requisitos definidos em aula.
 
 ## 📌 Tema
 Site institucional sobre jardinagem e paisagismo, com foco em conscientização ambiental e apresentação de serviços relacionados ao cuidado com o meio ambiente.
@@ -12,7 +12,7 @@ Aplicar as técnicas abordadas durante as aulas para construir um site completo,
 - HTML (HTML clássico / HTML4)
 - JavaScript
 
-⚠️ **Observação:**  
+⚠️ Observação:  
 Não foi utilizado CSS nem a tag `<style>`, conforme exigido no enunciado da atividade.
 
 ## 📄 Estrutura do Site

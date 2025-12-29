@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Contato - Legado Verde</title>
+
+  <script>
+    
+
+    function enviarContato() {
+      var nome = document.getElementById('nome').value;
+      var email = document.getElementById('email').value;
+      var mensagem = document.getElementById('mensagem').value;
+
+      if (nome === "" && email === "" && mensagem === "") {
+        alert("Por favor, preencha os campos para enviar!")
+        return false
+      }
+
+      else if (nome === "") {
+        alert("Preencha seu nome para enviar!")
+        return false
+      }
+
+      else if (email === "") {
+        alert("Preencha seu email para enviar!")
+        return false
+      }
+
+      else if (mensagem === "") {
+        alert("Escreva uma mensagem para enviar!")
+        return false
+      }
+
+  
+      else {
+        alert("Enviado com sucesso!")
+        return true
+      }
+    }
+  </script>
+</head>
+<body background="image.jpg">
+
+  <table width="100%" bgcolor="white" border="2" bordercolor="#009900" cellspacing="0" cellpadding="7" border="">
+        <tr>
+            <td align="center">
+                <h1>
+                    <font color="green" face="Arial">
+                        🌿 Legado Verde 🌿
+                        
+                    </font>
+                </h1>
+                <font>
+                    <p>"Paisagismo e Jardinagem Artesanal"</p>
+                </font>
+                
+                <font face="Arial" size="4">
+                    <a href="index.html">🏡Início</a> |
+                    <a href="sobre.html" target="_top">🌱Sobre</a> |
+                    <a href="contato.html" target="_top">📞Contato</a> |
+                    <a href="imagens.html" target="_top">🌸Imagens</a> |
+                    <a href="serviços.html" target="_top">🧤Nossos Serviços</a>
+                    <br>
+                    
+                </font>
+            </td>
+        </tr>
+    </table>
+  <br>
+
+  <h1 align="center">
+    <font color="white">Entre em Contato Conosco</font>
+  </h1>
+
+  <p align="center">
+    <img src="Logo.png" width="15%" alt="Plantas e flores ao fundo">
+  </p>
+
+  <p align="center">
+    <font color="white">
+      Ficaremos felizes em ouvir você! Preencha o formulário abaixo ou entre em contato pelos nossos canais oficiais.  
+      Seja para tirar dúvidas, fazer orçamentos ou apenas conversar sobre o poder do verde 🌿
+    </font>
+  </p>
+
+  <br>
+
+  <table align="center" bgcolor="white" border="0" width="50%">
+    <tr>
+      <td align="center">
+        <font color="black">
+          <form action="#" method="post">
+            <p>Nome:<br><input type="text" name="nome" id="nome" size="40"></p>
+            <p>E-mail:<br><input type="email" name="email" id="email" size="40"></p>
+            <p>Mensagem:<br><textarea name="mensagem" id="mensagem" rows="6" cols="40"></textarea></p>
+            <p><input type="submit" value="Enviar" onclick="enviarContato()"></p>
+          </form>
+        </font>
+      </td>
+    </tr>
+  </table>
+
+  <br>
+
+  <table align="center" bgcolor="white" border="1" bordercolor="green" width="60%">
+    <tr>
+      <td align="center">
+        <font color="black">
+          <h3>Informações de Contato</h3>
+          <p><b>Endereço:</b> Rua das Palmeiras, 123 - Jardim das Flores</p>
+          <p><b>Telefone:</b> (11) 98765-4321</p>
+          <p><b>E-mail:</b> contato@legadoverde.com</p>
+          <p><b>Horário de funcionamento:</b> Segunda a sábado, das 8h às 18h</p>
+        </font>
+      </td>
+    </tr>
+  </table>
+
+  <br>
+
+  <h2 align="center">
+    <font color="white">Nosso Espaço</font>
+  </h2>
+  <p align="center">
+    <img src="frente_loja.jpg" width="25%" alt="Frente da loja Legado Verde">
+    <img src="oficina_jardim.webp" width="25%" alt="Oficina de jardinagem">
+    <img src="jardim_imperial.webp" width="25%" alt="Ervas e temperos naturais">
+  </p>
+
+  <br><br>
+
+  <table width="100%" bgcolor="white" border="5" bordercolor="white">
+    <tr>
+      <td align="center">
+        <font color="black">
+          © 2025 Legado Verde - Cultivando o amor pela natureza 🌱
+        </font>
+      </td>
+    </tr>
+  </table>
+
+</body>
+</html>
